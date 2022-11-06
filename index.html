@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Bunga</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="webte icon" href="download (1).png"/>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Kalculator Bunga</h1>
+        <div class="line"></div>
+        <h4>Total = Pokok(1 + bunga.tahun)</h4>
+        <form action="#">
+            <h3>Masukkan uang pokok (Rp)</h3>
+            <input type="text" id="principal" placeholder="masukkan jumlah tanpa Rp">
+            <h3>Masukkan suku bunga (%)</h3>
+            <input type="text" id="interest" placeholder="Contoh 12%">
+            <h3>Masukkan Tahun (thn)</h3>
+            <input type="tel" id="year" placeholder="Tahun: 2 (harus dalam bentuk tahun)">
+            <button class="btn" id="button">
+                Hitung
+            </button>
+            <span id="resultInterest"></span> 
+            <span id="finalAmount"></span>
+        </form>
+    </div>
+</body>
+</html>
